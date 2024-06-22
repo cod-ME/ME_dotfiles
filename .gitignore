@@ -1,0 +1,19 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore specific files
+secret_config.yaml
+debug_output/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Custom lists
+/home/xT/Backups/ME_dotfiles/sys_config/.gitconfig

@@ -1,0 +1,140 @@
+
+ARandR
+About Xfce
+Advanced Network Configuration
+Anytype
+ArchLinux Betterlockscreen
+Avahi SSH Server Browser
+Avahi VNC Server Browser
+Avahi Zeroconf Browser
+Blanket
+Bluetooth
+Bluetooth Adapters
+Bluetooth Manager
+Bottles
+Brave
+CMake
+Caffeine
+Caffeine Indicator
+Calculator
+Catfish File Search
+ChatGPT
+Chromium
+Color Profile Viewer
+Customize Look and Feel
+Default applications for LXSession
+Deskreen
+Desktop Session Settings
+Disks
+DockX
+DockbarX Preference
+Document Viewer
+Double Commander
+DroidCam
+Electron 22
+Electron 28
+Electron 29
+Electron 30
+Emoji Selector
+Extensions
+File Roller
+Filelight
+FireDragon
+FireDragon-(UNsandboxed)
+Firefox Web Browser
+FreeTube
+GNOME System Monitor
+GPT4All Chat
+GParted
+Gammastep Indicator
+Hardware Locality lstopo
+Hypnotix
+Icon Browser
+Info Center
+KDE Connect
+KDE Connect Indicator
+KDE Connect SMS
+KDE Connect Settings
+KDE System Settings
+KRename
+KWrite
+Kate
+KeePassXC
+Krusader
+LibreOffice
+LibreOffice Base
+LibreOffice Calc
+LibreOffice Draw
+LibreOffice Impress
+LibreOffice Math
+LibreOffice Writer
+LibreWolf
+MATLAB
+MATLAB
+ML4W Dotfiles Settings App
+ML4W Hyprland Settings App
+ML4W Welcome App
+Manage Printing
+Meld
+Menu Editor
+Midnight Commander
+Mullvad Browser
+Nemo
+Neovim
+New Drawing
+Okular
+OpenJDK Java 22 Console
+OpenJDK Java 22 Shell
+Panel
+Print Settings
+PulseAudio Volume Control
+Qalculate!
+Qt Assistant
+Qt Designer
+Qt Linguist
+Qt QDBusViewer 
+Qt V4L2 test Utility
+Qt V4L2 video capture utility
+Qt5 Settings
+Remote Viewer
+Rnote
+Rofi
+Rofi Theme Selector
+Settings
+Spotify
+Spotify (adblock)
+Spotube
+Stacer
+System Monitor
+System Monitor
+System Settings
+Telegram Desktop
+Thorium Browser
+Thorium Shell
+Thunderbird
+Tweaks
+UserFeedback Console
+VLC media player
+Vim
+Virtual Machine Manager
+Visual Studio Code
+Vivaldi
+Waterfox
+XDvi
+Xfce Terminal
+Xfce Terminal Settings
+Xournal++
+YAD settings
+Zoom Workplace
+Zotero
+btop++
+cpupower-gui
+dconf Editor
+fish
+guvcview
+ipython
+kitty
+mpv Media Player
+nomacs
+pacseek
+qBittorrent

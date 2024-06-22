@@ -1,0 +1,13 @@
+[$Version]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0_pre,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0,kcminputrc_repeat.upd:kcminputrc_migrate_key_repeat
+
+[Libinput][1118][2496][Microsoft Surface Type Cover Touchpad]
+NaturalScroll=true
+TapToClick=true
+
+[Mouse]
+X11LibInputXAccelProfileFlat=true
+cursorTheme=Breeze_Dark_Fuchsia
+
+[Tmp]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

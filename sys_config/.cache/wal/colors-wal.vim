@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/hyprlin/wallpaper/natures-mountain-waters.jpg"
+let background = "#0A0B0F"
+let foreground = "#e1cdbf"
+let cursor     = "#e1cdbf"
+
+" Colors
+let color0  = "#0A0B0F"
+let color1  = "#30575F"
+let color2  = "#5A595A"
+let color3  = "#A56039"
+let color4  = "#BD8D6D"
+let color5  = "#407E81"
+let color6  = "#549596"
+let color7  = "#e1cdbf"
+let color8  = "#9d8f85"
+let color9  = "#30575F"
+let color10 = "#5A595A"
+let color11 = "#A56039"
+let color12 = "#BD8D6D"
+let color13 = "#407E81"
+let color14 = "#549596"
+let color15 = "#e1cdbf"
