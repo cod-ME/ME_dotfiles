@@ -16,4 +16,4 @@ debug_output/
 Thumbs.db
 
 # Custom lists
-/home/xT/Backups/ME_dotfiles/sys_config/.gitconfig
+ME_dotfiles/sys_config/.gitconfig
