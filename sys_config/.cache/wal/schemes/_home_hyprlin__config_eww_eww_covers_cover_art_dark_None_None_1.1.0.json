@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/hyprlin/.config/eww/eww_covers/cover_art",
+    "alpha": "100",
+    "special": {
+        "background": "#020202",
+        "foreground": "#e0e0e0",
+        "cursor": "#e0e0e0"
+    },
+    "colors": {
+        "color0": "#020202",
+        "color1": "#827667",
+        "color2": "#9B9279",
+        "color3": "#C19170",
+        "color4": "#959787",
+        "color5": "#A3A49A",
+        "color6": "#A7A7A7",
+        "color7": "#e0e0e0",
+        "color8": "#9c9c9c",
+        "color9": "#827667",
+        "color10": "#9B9279",
+        "color11": "#C19170",
+        "color12": "#959787",
+        "color13": "#A3A49A",
+        "color14": "#A7A7A7",
+        "color15": "#e0e0e0"
+    }
+}
