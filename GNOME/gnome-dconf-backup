@@ -97,7 +97,7 @@ video-x-resolution=1280
 video-y-resolution=720
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='display'
 window-state=(2560, 1440, false)
 
 [org/gnome/desktop/a11y/applications]
@@ -152,7 +152,7 @@ enable-animations=true
 enable-hot-corners=false
 font-antialiasing='rgba'
 font-hinting='slight'
-font-name='Fira Mono,  10'
+font-name='Fira Mono 10'
 gtk-theme='Sweet-Dark-v40'
 icon-theme='a-candy-beauty-icon-theme'
 scaling-factor=uint32 1
@@ -162,7 +162,7 @@ toolbar-style='text'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-network-panel', 'org-gnome-settings', 'nemo', 'firedragon', 'kitty', 'ulauncher', 'spotify', 'firefox', 'brave-browser', 'org-kde-kdeconnect-app', 'gnome-power-panel', 'org-gnome-extensions', 'ca-desrt-dconf-editor', 'xfce4-terminal', 'org-gnome-tweaks', 'waterfox', 'org-telegram-desktop', 'org-gnome-shell-extensions-gsconnect-preferences', 'org-gnome-shell-extensions-gsconnect', 'freetube', 'org-gnome-extensions-desktop', 'gnome-printers-panel', 'org-kde-kdeconnect-daemon', 'librewolf', 'com-github-flxzt-rnote', 'anytype', 'zoom', 'xdg-desktop-portal-gnome', 'com-github-xournalpp-xournalpp', 'droidcam', 'libreoffice-startcenter', 'org-kde-okular', 'code', 'chat-gpt']
+application-children=['gnome-network-panel', 'org-gnome-settings', 'nemo', 'firedragon', 'kitty', 'ulauncher', 'spotify', 'firefox', 'brave-browser', 'org-kde-kdeconnect-app', 'gnome-power-panel', 'org-gnome-extensions', 'ca-desrt-dconf-editor', 'xfce4-terminal', 'org-gnome-tweaks', 'waterfox', 'org-telegram-desktop', 'org-gnome-shell-extensions-gsconnect-preferences', 'org-gnome-shell-extensions-gsconnect', 'freetube', 'org-gnome-extensions-desktop', 'gnome-printers-panel', 'org-kde-kdeconnect-daemon', 'librewolf', 'com-github-flxzt-rnote', 'anytype', 'zoom', 'xdg-desktop-portal-gnome', 'com-github-xournalpp-xournalpp', 'droidcam', 'libreoffice-startcenter', 'org-kde-okular', 'code', 'chat-gpt', 'org-gnome-fileroller']
 
 [org/gnome/desktop/notifications/application/anytype]
 application-id='anytype.desktop'
@@ -383,15 +383,15 @@ window-size=(-1, -1)
 
 [org/gnome/file-roller/listing]
 list-mode='as-folder'
-name-column-width=128
+name-column-width=727
 show-path=false
 sort-method='name'
 sort-type='ascending'
 
 [org/gnome/file-roller/ui]
 sidebar-width=200
-window-height=869
-window-width=684
+window-height=1436
+window-width=1277
 
 [org/gnome/gnome-system-monitor]
 current-tab='resources'
@@ -735,7 +735,7 @@ show-indicators=true
 
 [org/gnome/shell/extensions/gsconnect/device/_3ad90495_cde1_4461_ae78_9d4ab6b1ddaa_]
 incoming-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.lock', 'kdeconnect.lock.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony', 'kdeconnect.telephony.request_mute', 'kdeconnect.virtualmonitor', 'kdeconnect.virtualmonitor.request']
-last-connection='lan://192.168.2.208:1716'
+last-connection='lan://192.168.2.200:1716'
 name='SCHERZiNGER'
 outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.lock', 'kdeconnect.lock.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.runcommand.request', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony', 'kdeconnect.telephony.request_mute', 'kdeconnect.virtualmonitor', 'kdeconnect.virtualmonitor.request']
 supported-plugins=['battery', 'clipboard', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'runcommand', 'share', 'systemvolume', 'telephony']
@@ -948,7 +948,7 @@ bat='power-saver'
 [org/gnome/shell/extensions/search-light]
 border-radius=6.9691629955947132
 entry-font-size=1
-monitor-count=2
+monitor-count=3
 popup-at-cursor-monitor=true
 scale-height=0.10000000000000001
 scale-width=0.10000000000000001
@@ -1139,16 +1139,16 @@ selected-color=(true, 0.96470588235294119, 0.38039215686274508, 0.31764705882352
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
-sidebar-width=170
+sidebar-width=175
 sort-column='modified'
 sort-directories-first=false
 sort-order='descending'
 type-format='category'
-window-position=(0, 0)
-window-size=(678, 825)
+window-position=(30, 26)
+window-size=(701, 825)
 
 [org/nemo/extensions/nemo-terminal]
 default-visible=true
@@ -1165,8 +1165,8 @@ search-reverse-sort=false
 search-sort-column='name'
 
 [org/nemo/window-state]
-geometry='780x998+0+0'
-maximized=false
+geometry='574x691+1922+728'
+maximized=true
 side-pane-view='places'
 sidebar-bookmark-breakpoint=0
 sidebar-width=140

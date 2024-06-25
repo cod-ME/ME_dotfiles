@@ -1,5 +1,5 @@
-# Ignore node_modules directory
-node_modules/
+# Ignore App_config directory
+ME_dotfiles/App_config
 
 # Ignore log files
 *.log

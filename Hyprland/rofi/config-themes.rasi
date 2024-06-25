@@ -1,34 +1,29 @@
 /*
-#  ____        __ _  
-# |  _ \ ___  / _(_) 
-# | |_) / _ \| |_| | 
-# |  _ < (_) |  _| | 
-# |_| \_\___/|_| |_| 
-#                    
-# by Stephan Raabe (2023) 
-# ----------------------------------------------------- 
+#  ____        __ _
+# |  _ \ ___  / _(_)
+# | |_) / _ \| |_| |
+# |  _ < (_) |  _| |
+# |_| \_\___/|_| |_|
+#
+# by MilEs (https://github.com/cod-ME)
+# -----------------------------------------------------
 */
 
 /* ---- Configuration ---- */
 configuration {
-    modi:                       "drun,run";
-    font:                       "Fira Sans 11";
+	modi:                       "drun,run,window,filebrowser";
     show-icons:                 true;
-    icon-theme:                 "kora";
-    display-drun:               "APPS";
-    display-run:                "RUN";
-    display-filebrowser:        "FILES";
-    display-window:             "WINDOW";
+    display-drun:               " ";
+    display-run:                "🚀";
+    display-filebrowser:        "📁";
+    display-window:             "🗗 ";
+	drun-display-format:        "{name}";
 	hover-select:               true;
-    me-select-entry:            "";
+	me-select-entry:            "MouseSecondary";
     me-accept-entry:            "MousePrimary";
-    drun-display-format:        "{name}";
-    window-format:              "{w} · {c} · {t}";
-    
+	window-format:              "{w} · {c} · {t}";
+	dpi:						1;
 }
-
-/* ---- Load font ---- */
-@import "~/dotfiles/.settings/rofi-font.rasi"
 
 /* ---- Load pywal colors (custom wal template) ---- */
 @import "~/.cache/wal/colors-rofi-pywal"
@@ -36,19 +31,15 @@ configuration {
 /* ---- Load wallpaper ---- */
 @import "~/.cache/current_wallpaper.rasi"
 
-/* ---- Load border width ---- */
-@import "~/dotfiles/.settings/rofi-border.rasi"
-
 /* ---- Window ---- */
 window {
-    width:                        400px;
+    width:                        800px;
     x-offset:                     0px;
-    y-offset:                     65px;
     spacing:                      0px;
     padding:                      0px;
     margin:                       0px; 
     color:                        #FFFFFF;
-    border:                       @border-width;
+    border:                       3px;
     border-color:                 #FFFFFF;
     cursor:                       "default";
     transparency:                 "real";
@@ -108,7 +99,7 @@ textbox-prompt-colon {
     enabled:                      true;
     expand:                       false;
     padding:                      0px 5px 0px 0px;
-    str:                          "";
+    str:                          "";
     background-color:             transparent;
     text-color:                   inherit;
 }
@@ -147,11 +138,11 @@ button selected {
 /* ---- Listview ---- */
 listview {
     enabled:                      true;
-    columns:                      1;
+    columns:                      2;
     lines:                        8;
-    cycle:                        true;
+    cycle:                        false;
     dynamic:                      true;
-    scrollbar:                    false;
+    scrollbar:                    true;
     layout:                       vertical;
     reverse:                      false;
     fixed-height:                 true;
@@ -171,7 +162,7 @@ element {
     cursor:                       pointer;
     background-color:             @background;
     border-radius:                10px;
-    border:                       @border-width;
+    border:                       3px;
 }
 
 element normal.normal {

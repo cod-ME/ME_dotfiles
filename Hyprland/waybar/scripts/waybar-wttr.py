@@ -142,5 +142,4 @@ for i, day in enumerate(weather['weather']):
                 continue
         data['tooltip'] += f"{format_time(hour['time'])} {WEATHER_CODES[hour['weatherCode']]} {format_temp(hour['FeelsLikeC'])} {hour['weatherDesc'][0]['value']}, {format_chances(hour)}\n"
 
-
 print(json.dumps(data))
