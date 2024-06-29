@@ -12,6 +12,7 @@
 # Cache file for holding the current wallpaper
 cache_file="$HOME/.cache/current_wallpaper"
 rasi_file="$HOME/.cache/current_wallpaper.rasi"
+blurred="$HOME/.cache/blurred_wallpaper.png"
 
 # Create cache file if not exists
 if [ ! -f $cache_file ] ;then
@@ -82,5 +83,33 @@ newwall=$(echo $wallpaper | sed "s|$HOME/wallpaper/||g")
     output=${wal_tpl//WALLPAPER/$wallpaper}
     echo "$output" > $HOME/.config/hypr/hyprpaper.conf
     hyprpaper &
+
+echo "DONE!"
+
+# -----------------------------------------------------
+# Created blurred wallpaper
+# -----------------------------------------------------
+blur="50x30"
+
+magick $wallpaper -resize 75% $blurred
+echo ":: Resized to 75%"
+if [ ! "$blur" == "0x0" ] ;then
+    magick $blurred -blur $blur $blurred
+    echo ":: Blurred"
+fi
+
+# -----------------------------------------------------
+# Created quare wallpaper
+# -----------------------------------------------------
+
+magick $wallpaper -gravity Center -extent 1:1 $square
+echo ":: Square version created"
+
+# -----------------------------------------------------
+# Write selected wallpaper into .cache files
+# -----------------------------------------------------
+echo "$wallpaper" > "$cache_file"
+echo "* { current-image: url(\"$blurred\", height); }" > "$rasi_file"
+
 
 echo "DONE!"
