@@ -22,7 +22,7 @@ local ipairs, string, os, table, tostring, tonumber, type = ipairs, string, os, 
 local gears         = require("gears") --Utilities such as color parsing and objects
 local awful         = require("awful") --Everything related to window managment
                       require("awful.autofocus")
-                      require("collision")()
+--                      require("collision")()
 local wibox         = require("wibox") -- Widget and layout library
 local beautiful     = require("beautiful") -- Theme handling library
 local naughty       = require("naughty") -- Notification library
@@ -992,7 +992,7 @@ awful.rules.rules = {
           -------- Set applications to always map on tag 3.--------
 
     { rule_any = { class = {
-                    "thunderbird",
+                    "org.mozilla.Thunderbird",
                     "Brave"
                     }},
         properties = { screen = 1, tag = awful.util.tagnames[3], switchtotag = true } },
@@ -1030,6 +1030,7 @@ awful.rules.rules = {
     { rule_any = { class = {
                     "Spotify",
                     "Deezer",
+                    "Mullvad Browser",
                     "GLava"
                 }},
         properties = { screen = 1, tag = awful.util.tagnames[8], switchtotag = true } },
@@ -1075,7 +1076,8 @@ awful.rules.rules = {
                 "Chromium",
                 "waterfox",
                 "LibreWolf",
-                "KeePassXC"
+                "KeePassXC",
+                "zen"
             }},
         properties = { callback = function (c) c.maximized = false end } },
 
@@ -1087,6 +1089,7 @@ awful.rules.rules = {
 
           -- Both No Maximizing & No Floating
     { rule_any = { class = {
+                "Sublime_text",
                 "nemo"
             }},
        properties = { maximized = false, floating = false } }

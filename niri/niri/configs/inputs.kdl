@@ -1,0 +1,20 @@
+// Put all your INPUT configs here
+
+input {
+    keyboard {
+        xkb {
+            layout "gb"
+        }
+    }
+
+    touchpad {
+        // off
+        tap
+        dwt
+        natural-scroll
+        accel-profile "adaptive"
+    }
+    warp-mouse-to-focus
+
+    focus-follows-mouse max-scroll-amount="90%"
+}

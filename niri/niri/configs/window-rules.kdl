@@ -1,0 +1,113 @@
+// Put all your WINDOW RULES here
+
+prefer-no-csd
+
+window-rule {
+    match app-id="firedragon"
+    open-on-workspace "1"
+    default-column-width {}
+}
+window-rule {
+    match app-id="FreeTube"
+    open-on-workspace "2"
+    default-column-width {}
+}
+window-rule {
+    match app-id="org.mozilla.Thunderbird"
+    open-on-workspace "3"
+    open-maximized true
+}
+window-rule {
+    match app-id="tutanota-desktop"
+    open-on-workspace "3"
+    open-maximized true
+}
+window-rule {
+    match app-id="brave"
+    open-on-workspace "3"
+    open-maximized true
+}
+window-rule {
+    match app-id="anytype"
+    open-on-workspace "3"
+    open-maximized true
+}
+window-rule {
+    match app-id="org.mozilla.Thunderbird"
+    open-on-workspace "3"
+    open-maximized true
+}
+window-rule {
+    match app-id="sublime_text"
+    // match title="Sublime Text"
+    open-on-workspace "4"
+    open-maximized true
+}
+window-rule {
+    match app-id="firefox"
+    open-on-workspace "4"
+    open-maximized true
+}
+window-rule {
+    match app-id="KeePassXC"
+    open-on-workspace "5"
+    open-maximized true
+}
+window-rule {
+    match app-id="vivaldi-stable"
+    open-on-workspace "6"
+    open-maximized true
+}
+window-rule {
+    match app-id="spotify"
+    open-on-workspace "8"
+    open-maximized true
+}
+window-rule {
+    match app-id="Mullvad Browser"
+    open-on-workspace "8"
+    open-maximized true
+}
+window-rule {
+    match app-id="waterfox"
+    open-on-workspace "9"
+    open-maximized true
+}
+
+
+window-rule {
+    // This regular expression is intentionally made as specific as possible,
+    // since this is the default config, and we want no false positives.
+    // You can get away with just app-id="wezterm" if you want.
+    match app-id=r#"^org\.wezfurlong\.wezterm$"#
+    default-column-width {}
+}
+
+// Open the Firefox picture-in-picture player as floating by default.
+
+window-rule {
+    // This app-id regular expression will work for both:
+    // - host Firefox (app-id is "firefox")
+    // - Flatpak Firefox (app-id is "org.mozilla.firefox")
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+window-rule {
+    match is-urgent=true
+}
+// block out two password managers from screen capture.
+window-rule {
+    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+    match app-id=r#"^org\.gnome\.World\.Secrets$"#
+
+    block-out-from "screen-capture"
+
+    // Use this instead if you want them visible on third-party screenshot tools.
+    // block-out-from "screencast"
+}
+
+// Enable rounded corners for all windows.
+window-rule {
+    geometry-corner-radius 10
+    clip-to-geometry true
+}

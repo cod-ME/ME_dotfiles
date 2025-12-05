@@ -1,0 +1,5 @@
+FileManager=custom-FileManager
+WebBrowser=custom-WebBrowser
+MailReader=thunderbird
+TerminalEmulator=kitty
+

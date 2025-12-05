@@ -56,6 +56,7 @@ theme.layout_max                                = theme.confdir .. "/icons/max.p
 theme.layout_fullscreen                         = theme.confdir .. "/icons/fullscreen.png"
 theme.layout_magnifier                          = theme.confdir .. "/icons/magnifier.png"
 theme.layout_floating                           = theme.confdir .. "/icons/floating.png"
+theme.wallpaper                                 = theme.confdir .. "/wallpaper.jpg"
 
 
 function theme.at_screen_connect(s)

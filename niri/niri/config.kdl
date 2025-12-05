@@ -1,0 +1,40 @@
+// This config is in the KDL format: https://kdl.dev
+
+hotkey-overlay {
+     skip-at-startup
+}
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+                    // Workspaces
+
+workspace "1"{
+}
+workspace "2"{
+}
+workspace "3"{
+}
+workspace "4"{
+}
+workspace "5"{
+}
+workspace "6"{
+}
+workspace "7"{
+}
+workspace "8"{
+}
+workspace "9"{
+}
+
+
+                        // include files 
+                        
+include "configs/inputs.kdl"
+include "configs/monitors.kdl"
+include "configs/layout.kdl"
+include "configs/autostart.kdl"
+include "configs/animation.kdl"
+include "configs/window-rules.kdl"
+include "configs/binds.kdl"
+

@@ -17,4 +17,5 @@ run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 run numlockx on
 run volumeicon
 run ~/.config/awesome/scripts/xrandr.sh
+run kdeconnect-indicator 
 

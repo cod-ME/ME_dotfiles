@@ -1,0 +1,8 @@
+// Put all your AUTOSTART APPS here
+
+spawn-at-startup "qs" "-c" "noctalia-shell"
+spawn-at-startup "kdeconnect-indicator"
+spawn-at-startup "tutanota-desktop"
+spawn-at-startup "org.mozilla.Thunderbird"
+spawn-at-startup "systemctl" "--user" "important-environment" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP"
+spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP=niri"
